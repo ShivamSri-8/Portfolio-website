@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #654040;
+    color: #cd1a1a;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./my pic 1 jan.jpg');
+    background-size: 600px 800px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding: 10px 10%;
+    color: rgb(255, 0, 0);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 100px;
+}
+
+.header-text {
+    text-align: center;
+    margin-top: 20px;
+}
